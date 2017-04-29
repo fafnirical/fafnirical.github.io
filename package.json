@@ -1,0 +1,28 @@
+{
+  "name": "fafnirical.github.io",
+  "version": "1.0.0",
+  "description": "Personal homepage of Wade \"Fafnirical\" Burelbach",
+  "homepage": "https://github.com/fafnirical/fafnirical.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/fafnirical/fafnirical.github.io/issues"
+  },
+  "license": "MPL-2.0",
+  "author": "Wade Burelbach <wade.burelbach@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fafnirical/fafnirical.github.io.git"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  }
+}
