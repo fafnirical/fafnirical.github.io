@@ -1,0 +1,23 @@
+# Site settings
+title: Developing Ninja
+email: wade.burelbach@gmail.com
+description: >
+  The portfolio and blog of Wade "Fafnirical" Burelbach
+baseurl: ''
+url: https://developing.ninja
+twitter_username: fafnirical
+github_username: fafnirical
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - .eslintrc.yaml
+  - .gitignore
+  - Gemfile*
+  - package.json
+  - node_modules/
+  - README.md
+  - yarn.lock
