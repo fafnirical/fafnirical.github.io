@@ -1,14 +1,25 @@
 # Site settings
 title: Developing Ninja
-email: wade.burelbach@gmail.com
 description: >
-  The portfolio and blog of Wade "Fafnirical" Burelbach
+  The portfolio and blog of Wade Burelbach
 baseurl: ''
-url: https://developing.ninja
-twitter_username: fafnirical
-github_username: fafnirical
+url: http://developing.ninja
+github:
+  username: fafnirical
+twitter:
+  username: Fafnirical
+social:
+  name: Wade Burelbach
+  links:
+    - https://github.com/fafnirical
+    - https://www.linkedin.com/in/wadeburelbach/
+    - https://twitter.com/fafnirical
+lang: en_US
 
 # Analytics settings
+webmaster_verifications:
+  google: 9uLtc2_CWB-k8-mIFTsMRXhZNWuzmJj-n6z8xXGUsco
+  bing: 07D0810BEEF8CA0A6349BCA1BBB25058
 analytics:
   google: UA-51727784-1
 
@@ -16,6 +27,7 @@ analytics:
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - .eslintrc.yaml
   - .gitignore
