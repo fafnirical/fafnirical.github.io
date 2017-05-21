@@ -8,6 +8,10 @@ url: https://developing.ninja
 twitter_username: fafnirical
 github_username: fafnirical
 
+# Analytics settings
+analytics:
+  google: UA-51727784-1
+
 # Build settings
 markdown: kramdown
 gems:
